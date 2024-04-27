@@ -61,7 +61,7 @@ st.markdown(
 # st.markdown(bg_img, unsafe_allow_html=True)
 
 # URL of your FastAPI application
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://adt-project-g10.onrender.com"
 
 def load_lottiefile(filepath: str):
    with open(filepath, "r") as file:

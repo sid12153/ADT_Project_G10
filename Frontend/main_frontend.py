@@ -3,7 +3,7 @@ import requests
 import datetime
 import json
 from streamlit_lottie import st_lottie
-from streamlit_extras.switch_page_button import switch_page
+# from streamlit_extras.switch_page_button import switch_page
 from PIL import Image
 import time
 

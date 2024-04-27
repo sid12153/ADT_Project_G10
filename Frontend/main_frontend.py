@@ -67,8 +67,8 @@ def load_lottiefile(filepath: str):
    with open(filepath, "r") as file:
        return json.load(file)
 
-lottie_animation = load_lottiefile("Animation - 1713738452764.json")
-lottie_animation_info_page = load_lottiefile("Animation_info_page_2.json")
+lottie_animation = load_lottiefile("Frontend/Animation - 1713738452764.json")
+lottie_animation_info_page = load_lottiefile("Frontend/Animation_info_page_2.json")
 
 
 # def display_ride_block(ride):
